@@ -1,0 +1,10 @@
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\bin\Debug\Aula_27_02.exe.config
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\bin\Debug\Aula_27_02.exe
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\bin\Debug\Aula_27_02.pdb
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.csproj.AssemblyReference.cache
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.Properties.Resources.resources
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.csproj.GenerateResource.cache
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.csproj.CoreCompileInputs.cache
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.exe
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.pdb
+C:\Users\Henrique Dias\Documents\GitHub\Programa--o-Multiplataforma\Aula_27_02\Aula_27_02\obj\Debug\Aula_27_02.Form1.resources

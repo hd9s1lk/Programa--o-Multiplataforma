@@ -1,0 +1,17 @@
+﻿<Window x:Class="WPF_Aula_27_01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Aula_27_01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Box_Valor_1" Content="Valor 1:&#xD;&#xA;" HorizontalAlignment="Left" Margin="107,78,0,0" VerticalAlignment="Top" Height="65" Width="78"/>
+        <Label x:Name="Box_Valor_2" Content="Valor 2:&#xA;" HorizontalAlignment="Left" Margin="107,125,0,0" VerticalAlignment="Top" Height="65" Width="78"/>
+        <TextBox x:Name="TextBox_Valor_1" HorizontalAlignment="Left" Margin="161,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_Valor_1_TextChanged"/>
+        <TextBox x:Name="TextBox_Valor_2" HorizontalAlignment="Left" Margin="161,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Button_Mover_1" Content="Mover" HorizontalAlignment="Left" Margin="201,175,0,0" VerticalAlignment="Top" Click="Button_Mover_1_Click"/>
+
+    </Grid>
+</Window>
