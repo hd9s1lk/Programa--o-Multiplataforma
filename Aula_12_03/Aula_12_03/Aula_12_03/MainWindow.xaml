@@ -1,0 +1,32 @@
+﻿<Window x:Class="Aula_12_03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aula_12_03"
+        mc:Ignorable="d"
+        Title="Lista de Figuras" Height="450" Width="800">
+    <Grid>
+        <Menu>
+            <Menu Height="74" Width="794" RenderTransformOrigin="0.502,0.476">
+                <MenuItem Header="Figuras" Height="28" Width="91">
+                    <MenuItem x:Name="ButaoAdicionar"  Header="Adicionar" Click="ButaoAdicionar_Click"/>
+                    <Separator/>
+                    <MenuItem x:Name="ButaoSair" Header="Sair" Click="ButaoSair_Click"/>
+                </MenuItem>
+            </Menu>
+            <Label Content="Descrição&#xD;&#xA;"/>
+            <ListBox x:Name="lbFiguras" Height="118" Width="141" d:ItemsSource="{d:SampleData ItemCount=5}">
+                <ListBox.ContextMenu>
+                    <ContextMenu>
+                        <MenuItem x:Name="ButaoAdicionar2"  Header="Adicionar" Click="ButaoAdicionar_Click"/>
+                        <Separator/>
+                        <MenuItem x:Name="ButaoSair2" Header="Sair" Click="ButaoSair_Click"/>
+                    </ContextMenu>
+                </ListBox.ContextMenu>
+            </ListBox>
+            <Canvas x:Name="canvasFigura" Height="183" Width="287" Background="Black"/>
+        </Menu>
+
+    </Grid>
+</Window>

@@ -1,0 +1,30 @@
+﻿<Window x:Class="Aula_05_03.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aula_05_03"
+        mc:Ignorable="d"
+        Title="Aula 3" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="Label_Valor1" Content="Valor 1:&#xD;&#xA;" HorizontalAlignment="Left" Margin="118,81,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="Label_Valor2" Content="Valor 2:&#xA;" HorizontalAlignment="Left" Margin="118,129,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Valor1_TextBox" HorizontalAlignment="Left" Margin="187,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.532,0.651"/>
+        <TextBox x:Name="Valor2_TextBox" HorizontalAlignment="Left" Margin="188,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.532,0.651"/>
+        <Label x:Name="Label_Valor2_Copiar" Content="Resultado:&#xD;&#xA;" HorizontalAlignment="Left" Margin="118,183,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="Resultado_TextBox" HorizontalAlignment="Left" Margin="188,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.532,0.651" IsEnabled="False"/>
+        <Button x:Name="Button_Calcular" Content="Somar" HorizontalAlignment="Left" Margin="229,238,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Label x:Name="ComboBox_Label" Content="ComboBox&#xD;&#xA;" HorizontalAlignment="Left" Margin="469,97,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ComboBox_Logs" HorizontalAlignment="Left" Margin="469,141,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="ListBox_Logs" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="469,186,211,87"/>
+        <ListView x:Name="ListView" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="614,186,40,91">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TreeView x:Name="TreeView" Margin="618,10,44,281"/>
+
+    </Grid>
+</Window>
