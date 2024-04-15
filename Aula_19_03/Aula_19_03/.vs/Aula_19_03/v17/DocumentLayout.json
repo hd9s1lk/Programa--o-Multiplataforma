@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\figura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\adicionarfigura.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\adicionarfigura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\adicionarfigura.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_19_03\\aula_19_03\\aula_19_03\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2516F160-9F9E-4B02-9446-FE0C86A1DBF0}|Aula_19_03\\Aula_19_03.csproj|solutionrelative:aula_19_03\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Figura.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\Aula_19_03\\Figura.cs",
               "RelativeDocumentMoniker": "Aula_19_03\\Figura.cs",
@@ -47,7 +47,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdicionarFigura.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\Aula_19_03\\AdicionarFigura.xaml.cs",
               "RelativeDocumentMoniker": "Aula_19_03\\AdicionarFigura.xaml.cs",
@@ -55,24 +55,22 @@
               "RelativeToolTip": "Aula_19_03\\AdicionarFigura.xaml.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAWwEEAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T16:46:52.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T16:46:52.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdicionarFigura.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\Aula_19_03\\AdicionarFigura.xaml",
               "RelativeDocumentMoniker": "Aula_19_03\\AdicionarFigura.xaml",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\Aula_19_03\\AdicionarFigura.xaml",
               "RelativeToolTip": "Aula_19_03\\AdicionarFigura.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-19T16:37:14.679Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-19T16:37:14.679Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_19_03\\Aula_19_03\\Aula_19_03\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Aula_19_03\\MainWindow.xaml",

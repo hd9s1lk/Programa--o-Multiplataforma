@@ -1,0 +1,26 @@
+﻿<Window x:Class="Estudo_Ex3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estudo_Ex3"
+        mc:Ignorable="d"
+        Title="Controlo de Despesas" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btn_Sair" Content="Sair" HorizontalAlignment="Left" Margin="53,57,0,0" VerticalAlignment="Top" Width="78" Click="btn_Sair_CLICK"/>
+        <Button x:Name="btn_Register" Content="Registar Movimento" HorizontalAlignment="Left" Margin="136,57,0,0" VerticalAlignment="Top" Click="btn_Register_CLICK"/>
+        <Label Content="Saldo Disponível:" HorizontalAlignment="Left" Margin="555,59,0,0" VerticalAlignment="Top" Width="117"/>
+        <Label Content="0.00" HorizontalAlignment="Left" Margin="672,59,0,0" VerticalAlignment="Top" Width="118"/>
+        <ListView x:Name="listView_Dados" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,90,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Data}" Header="Data" Width="100"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Desc}" Header="Descrição" Width="200"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Qtd}" Header="Quantia" Width="100"/>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</Window>

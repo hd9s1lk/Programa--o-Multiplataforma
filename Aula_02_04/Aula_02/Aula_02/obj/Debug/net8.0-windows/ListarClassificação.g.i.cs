@@ -61,7 +61,7 @@ namespace Aula_02 {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Aula_02;V1.0.0.0;component/listarclassifica%c3%a7%c3%a3o.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Aula_02;component/listarclassifica%c3%a7%c3%a3o.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\ListarClassificação.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

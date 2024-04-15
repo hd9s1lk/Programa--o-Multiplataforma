@@ -1,0 +1,20 @@
+﻿<Window x:Class="Estudo_Ex4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estudo_Ex4"
+        mc:Ignorable="d"
+        Title="Janela Principal" Height="450" Width="800">
+    <Grid>
+        <Label Content="Número:" HorizontalAlignment="Left" Margin="89,91,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome:" HorizontalAlignment="Left" Margin="98,143,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,0.13"/>
+        <Label Content="Curso:" HorizontalAlignment="Left" Margin="98,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.37,0.13"/>
+        <TextBox x:Name="Numero_TextBox" HorizontalAlignment="Left" Margin="167,95,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Text="123456"/>
+        <TextBox x:Name="Nome_TextBox" HorizontalAlignment="Left" Margin="167,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Text="Artur Aniceto Alves"/>
+        <TextBox x:Name="Curso_TextBox" HorizontalAlignment="Left" Margin="167,182,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" IsEnabled="False" Text="Licenciatura em Pesca Desportiva"/>
+        <Button x:Name="btn_Sair" Content="Sair" HorizontalAlignment="Left" Margin="363,280,0,0" VerticalAlignment="Top" Click="btn_Sair_CLICK"/>
+        <Button x:Name="btn_Modificar" Content="Modificar" HorizontalAlignment="Left" Margin="593,91,0,0" VerticalAlignment="Top" Height="26" Width="64" Click="btn_Modificar_CLICK"/>
+
+    </Grid>
+</Window>
