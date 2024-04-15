@@ -28,10 +28,24 @@ namespace Estudo_Ex3
 
         private void btn_Register_CLICK(object sender, RoutedEventArgs e)
         {
-            Window1 register = new Window1();
-            register.Show();
+            
 
-            listView_Dados.Items.Add(register.ItemList);
+            Window1 register = new Window1();
+            if(register.ShowDialog() == true)
+            {
+                string date = register.date;
+                listView_Dados.Items.Add(date);
+
+                int quantity = register.quantity;
+                listView_Dados.Items.Add(quantity);
+
+                string desc = register.desc;
+                listView_Dados.Items.Add(desc);
+
+
+            }
+
+            
         }
     }
 }

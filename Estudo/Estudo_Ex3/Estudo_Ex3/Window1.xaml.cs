@@ -19,7 +19,10 @@ namespace Estudo_Ex3
     /// </summary>
     public partial class Window1 : Window
     {
-        public List<string> ItemList = new List<string>();
+        public string date {  get; private set; }
+        public string desc {  get; private set; }
+        public int quantity { get; private set; }
+        
         public Window1()
         {
             InitializeComponent();
@@ -27,12 +30,21 @@ namespace Estudo_Ex3
 
         private void btn_Registar_CLICK(object sender, RoutedEventArgs e)
         {
+            
             String data = Data_TextBox.Text;
-            String desc = Descrição_TextBox.Text;
+            String description = Descrição_TextBox.Text;
             string qtd = Quantia_TextBox.Text;
             int quantia = Convert.ToInt32(qtd);
 
-            ItemList.Add(data);
+            date = data;
+            desc = description;
+            quantity = quantia;
+
+
+
+            this.DialogResult = true;
+
+           
         }
     }
 }
