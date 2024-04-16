@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Modificar Dados" Height="450" Width="800">
     <Grid>
-        <Button x:Name="btn_Alterar" Content="Alterar" HorizontalAlignment="Left" Margin="171,273,0,0" VerticalAlignment="Top" Height="31" Width="62"/>
+        <Button x:Name="btn_Alterar" Content="Alterar" HorizontalAlignment="Left" Margin="171,273,0,0" VerticalAlignment="Top" Height="31" Width="62" Click="btn_ALTERAR_CLICK"/>
         <Label Content="Número:" HorizontalAlignment="Left" Margin="89,91,0,0" VerticalAlignment="Top"/>
         <Label Content="Nome:" HorizontalAlignment="Left" Margin="98,148,0,0" VerticalAlignment="Top"/>
         <Label Content="Curso:" HorizontalAlignment="Left" Margin="98,191,0,0" VerticalAlignment="Top"/>

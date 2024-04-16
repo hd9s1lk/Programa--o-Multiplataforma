@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\estudo\\estudo_ex3\\estudo_ex3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3757BA8D-6072-454D-841C-EFD34F8655D3}|Estudo_Ex3\\Estudo_Ex3.csproj|solutionrelative:estudo_ex3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Window1.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\Window1.xaml.cs",
               "RelativeDocumentMoniker": "Estudo_Ex3\\Window1.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\Window1.xaml.cs",
               "RelativeToolTip": "Estudo_Ex3\\Window1.xaml.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAAACgAAAAfAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAA3wCwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T10:50:11.728Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Estudo_Ex3\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\MainWindow.xaml.cs",
               "RelativeToolTip": "Estudo_Ex3\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAjwCwAAAAAAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAjwCgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-13T10:27:11.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Window1.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\Window1.xaml",
               "RelativeDocumentMoniker": "Estudo_Ex3\\Window1.xaml",
@@ -68,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Estudo\\Estudo_Ex3\\Estudo_Ex3\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Estudo_Ex3\\MainWindow.xaml",

@@ -19,6 +19,12 @@ namespace Estudo_Ex4
     /// </summary>
     public partial class Window1 : Window
     {
+        public int num {  get; private set; }
+
+        public string nome { get; private set; }
+
+        public string curso { get; private set; }
+        
         Window janela;
         public Window1()
         {
@@ -28,6 +34,24 @@ namespace Estudo_Ex4
         private void btn_Cancelar_CLICK(object sender, RoutedEventArgs e)
         {
             janela.Close();
+        }
+
+      
+
+        private void btn_ALTERAR_CLICK(object sender, RoutedEventArgs e)
+        {
+            string name = nome_TextBox.Text;
+            nome = name;
+            string nume = numero_TextBox.Text;
+            int NUM = Convert.ToInt32(nume);
+            num = NUM;
+
+            string CURSO = curso_TextBox.Text;
+            curso = CURSO;
+
+
+            
+
         }
     }
 }
