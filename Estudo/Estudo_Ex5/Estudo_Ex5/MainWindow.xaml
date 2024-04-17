@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Height="269" Margin="92,55,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="546"/>
+        <TextBox x:Name="Texto_textBox" HorizontalAlignment="Left" Height="269" Margin="92,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="546" TextChanged="TextBox_TextChanged" IsEnabled="False" Text="A unidade curricular Programação Multiplataforma pretende servir como&#xD;&#xA;charneira no processo de aprendizagem de programação dos alunos. Os&#xD;&#xA;alunos, por contacto e utilização de um leque alargado de recursos de&#xD;&#xA;programação distintos, deverão efetuar a transição do código planeado e&#xD;&#xA;criado de raiz, para o código planeado e criado por recurso a componentes&#xD;&#xA;já existentes (quer em bibliotecas, quer por código aberto disponível&#xD;&#xA;na Web).&#xD;&#xA;Os alunos deverão, igualmente, desenvolver a capacidade de abstração da&#xD;&#xA;estrutura do código, aprendendo conceitos de padrões arquitetónicos&#xD;&#xA;estruturantes do código.&#xD;&#xA;Pretende-se igualmente que os alunos iniciem o contacto com o&#xD;&#xA;desenvolvimento de interfaces visuais de utilizador, com programação por&#xD;&#xA;objetos que incorpore utilização intensa de eventos e exceções."/>
 
     </Grid>
 </Window>
