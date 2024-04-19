@@ -9,6 +9,12 @@ namespace Estudo_Ex5
     /// </summary>
     public partial class App : Application
     {
+        public ModelFicheiro ModelFicheiro { get; set; }
+
+        public App()
+        {
+            ModelFicheiro = new ModelFicheiro();
+        }
     }
 
 }
