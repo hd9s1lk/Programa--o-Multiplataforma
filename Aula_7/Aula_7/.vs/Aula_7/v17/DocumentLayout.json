@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_7\\aula_7\\aula_7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|solutionrelative:aula_7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_7\\aula_7\\aula_7\\modelficheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|solutionrelative:aula_7\\modelficheiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_7\\aula_7\\aula_7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|solutionrelative:aula_7\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_7\\aula_7\\aula_7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E849D31-E83E-4D89-831A-E8F777AB0E11}|Aula_7\\Aula_7.csproj|solutionrelative:aula_7\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\App.xaml.cs",
               "RelativeDocumentMoniker": "Aula_7\\App.xaml.cs",
@@ -38,43 +38,41 @@
               "RelativeToolTip": "Aula_7\\App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T15:48:54.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:48:54.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ModelFicheiro.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\ModelFicheiro.cs",
               "RelativeDocumentMoniker": "Aula_7\\ModelFicheiro.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\ModelFicheiro.cs",
               "RelativeToolTip": "Aula_7\\ModelFicheiro.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAYwBcAAABCAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T15:37:15.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\MainWindow.xaml",
               "RelativeDocumentMoniker": "Aula_7\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\MainWindow.xaml",
               "RelativeToolTip": "Aula_7\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-09T15:24:30.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-09T15:24:30.541Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Aula_7\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_7\\Aula_7\\Aula_7\\MainWindow.xaml.cs",
               "RelativeToolTip": "Aula_7\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAABEAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAYwEAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T15:24:27.79Z",
               "EditorCaption": ""

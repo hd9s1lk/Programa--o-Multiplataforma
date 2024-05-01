@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\modelarclassificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\modelarclassificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\listarnotas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\listarnotas.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +19,16 @@
       "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\modelarclassificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\modelarclassificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\listarnotas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\listarnotas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\listarclassifica\u00E7\u00E3o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\listarclassifica\u00E7\u00E3o.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_02_04\\aula_02\\aula_02\\listarnotas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5F6D8305-2A9D-4159-9E68-085254592543}|Aula_02\\Aula_02.csproj|solutionrelative:aula_02\\listarnotas.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,69 +38,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ListarNotas.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarNotas.xaml.cs",
               "RelativeDocumentMoniker": "Aula_02\\ListarNotas.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarNotas.xaml.cs",
               "RelativeToolTip": "Aula_02\\ListarNotas.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABXAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T16:41:12.057Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ModelarClassificacao.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ModelarClassificacao.cs",
               "RelativeDocumentMoniker": "Aula_02\\ModelarClassificacao.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ModelarClassificacao.cs",
               "RelativeToolTip": "Aula_02\\ModelarClassificacao.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAkAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T16:15:47.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\App.xaml.cs",
               "RelativeDocumentMoniker": "Aula_02\\App.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\App.xaml.cs",
               "RelativeToolTip": "Aula_02\\App.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAA8AAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBEAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T16:00:38.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ListarClassifica\u00E7\u00E3o.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarClassifica\u00E7\u00E3o.xaml",
               "RelativeDocumentMoniker": "Aula_02\\ListarClassifica\u00E7\u00E3o.xaml",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarClassifica\u00E7\u00E3o.xaml",
               "RelativeToolTip": "Aula_02\\ListarClassifica\u00E7\u00E3o.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T15:49:19.153Z"
+              "WhenOpened": "2024-04-02T15:49:19.153Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ListarNotas.xaml",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarNotas.xaml",
               "RelativeDocumentMoniker": "Aula_02\\ListarNotas.xaml",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\ListarNotas.xaml",
               "RelativeToolTip": "Aula_02\\ListarNotas.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-02T15:47:23.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T15:47:23.359Z"
             },
             {
               "$type": "Document",
@@ -116,13 +116,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Aula_02\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_02_04\\Aula_02\\Aula_02\\MainWindow.xaml.cs",
               "RelativeToolTip": "Aula_02\\MainWindow.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAkwBwAAAAlAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBwAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-02T15:29:38.193Z",
               "EditorCaption": ""

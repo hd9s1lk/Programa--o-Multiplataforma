@@ -1,0 +1,16 @@
+﻿<Window x:Class="Exceções_Aula8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exceções_Aula8"
+        mc:Ignorable="d"
+        Title="Validar Texto" Height="250" Width="200">
+    <Grid>
+        <TextBox x:Name="txtTexto" HorizontalAlignment="Left" Margin="32,39,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Introduza texto" HorizontalAlignment="Left" Margin="32,10,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnInserir" Content="Inserir" HorizontalAlignment="Left" Margin="77,75,0,0" VerticalAlignment="Top" Click="btnInserir_CLICK"/>
+        <ListBox x:Name="lbTexto" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="0,100,0,0"/>
+
+    </Grid>
+</Window>
