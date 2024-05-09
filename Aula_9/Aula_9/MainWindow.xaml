@@ -1,0 +1,18 @@
+﻿<Window x:Class="Aula_9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Aula_9"
+        mc:Ignorable="d"
+        Title="Gestão da Escola" Height="250" Width="200" Loaded="Window_Loaded">
+    <Grid>
+        <TextBlock x:Name="txtEscola" HorizontalAlignment="Left" Margin="54,42,0,0" TextWrapping="Wrap" Text="Desconhecida" VerticalAlignment="Top"/>
+        <Label Content="Nome da Escola" HorizontalAlignment="Left" Margin="44,16,0,0" VerticalAlignment="Top"/>
+        <Label Content="Departamentos:" HorizontalAlignment="Left" Margin="44,83,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbDepartamentos" HorizontalAlignment="Left" Margin="32,114,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbDepartamento_SelectionChanged"/>
+        <TextBlock x:Name="NDocentes" HorizontalAlignment="Left" Margin="88,176,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top"/>
+        <Label Content="Nr Docentes do Departamento" HorizontalAlignment="Left" Margin="18,145,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
