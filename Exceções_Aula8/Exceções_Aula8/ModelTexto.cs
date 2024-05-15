@@ -9,9 +9,6 @@ namespace Exceções_Aula8
     //delegate
     public delegate void D(string valor);
 
-
-
-
     //public -> para inicializar na App
     public class ModelTexto
     {

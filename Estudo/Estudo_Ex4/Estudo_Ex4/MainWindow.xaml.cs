@@ -56,10 +56,6 @@ namespace Estudo_Ex4
             string cursoFinal = window1.curso;
             Curso_TextBox.Text = cursoFinal;
 
-
-
-            
-
         }
     }
 }
