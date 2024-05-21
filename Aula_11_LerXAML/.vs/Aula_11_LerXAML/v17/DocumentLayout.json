@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\modelinscricoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\modelinscricoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\aluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\alunos.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\alunos.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|c:\\users\\henrique dias\\documents\\github\\programa--o-multiplataforma\\aula_11_lerxaml\\aula_11_lerxaml\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED991C8F-836E-4CBE-B025-EB95806BFA48}|Aula_11_LerXAML\\Aula_11_LerXAML.csproj|solutionrelative:aula_11_lerxaml\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "alunos.txt",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\alunos.txt",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\alunos.txt",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\alunos.txt",
+              "RelativeToolTip": "Aula_11_LerXAML\\alunos.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-21T16:26:29.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\App.xaml.cs",
+              "RelativeToolTip": "Aula_11_LerXAML\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:56:17.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelInscricoes.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\ModelInscricoes.cs",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\ModelInscricoes.cs",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\ModelInscricoes.cs",
+              "RelativeToolTip": "Aula_11_LerXAML\\ModelInscricoes.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAuwGYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:37:01.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Aluno.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\Aluno.cs",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\Aluno.cs",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\Aluno.cs",
+              "RelativeToolTip": "Aula_11_LerXAML\\Aluno.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:32:00.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\MainWindow.xaml",
+              "RelativeToolTip": "Aula_11_LerXAML\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T15:18:17.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Aula_11_LerXAML\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Henrique Dias\\Documents\\GitHub\\Programa--o-Multiplataforma\\Aula_11_LerXAML\\Aula_11_LerXAML\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Aula_11_LerXAML\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAAAF8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T15:18:15.312Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

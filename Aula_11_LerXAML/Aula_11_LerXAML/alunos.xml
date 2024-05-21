@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Listagem de Alunos-->
+<Alunos>
+  <Inscritos>
+    <Aluno Numero="1234" Nome="Henrique Dias">
+      <Curso>Engenharia Informática</Curso>
+    </Aluno>
+    <Aluno Numero="1244" Nome="Filipe Rodrigues">
+      <Curso>Engenharia Informática</Curso>
+    </Aluno>
+    <Aluno Numero="1634" Nome="Rafael Silva">
+      <Curso>Engenharia Informática</Curso>
+    </Aluno>
+  </Inscritos>
+  <NaoInscritos>
+    <Aluno Numero="1734" Nome="Rogério Mateus">
+      <Curso>Engenharia Informática</Curso>
+    </Aluno>
+  </NaoInscritos>
+</Alunos>

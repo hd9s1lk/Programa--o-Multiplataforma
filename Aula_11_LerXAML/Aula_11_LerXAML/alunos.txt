@@ -1,0 +1,4 @@
+1234;Henrique Dias;Engenharia Informática;Inscrito
+1244;Filipe Rodrigues;Engenharia Informática;Inscrito
+1634;Rafael Silva;Engenharia Informática;Inscrito
+1734;Rogério Mateus;Engenharia Informática;NaoInscrito
