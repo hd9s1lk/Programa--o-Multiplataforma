@@ -12,9 +12,12 @@
                 <MenuItem Header="Abrir Txt" Click="AbrirTxt_CLICK" />
                 <MenuItem Header="Guardar XML" Click="GuardarXML_CLICK"/>
                 <MenuItem Header="Guardar JSON" Click="GuardarJSON_CLICK"/>
+
+                <MenuItem Header="Abrir XML" Click="AbrirXml_CLICK"/>
+                <MenuItem Header="Guardar Txt" Click="GuardarTxt_CLICK"/>
             </MenuItem>
         </Menu>
-        <TreeView x:Name="tvAlunos" Margin="0,70,0,0"/>
+        <TreeView x:Name="tvAlunos" Margin="0,70,0,0" SelectedItemChanged="tvAlunos_SELECTEDITEMCHANGED"/>
 
     </Grid>
 </Window>
