@@ -1,0 +1,270 @@
+﻿Usabilidade -> conjunto de aspetos a ter em conta para que um produto se adapte a utilizadores específicos
+
+10 heurísticas: Feeddback, Linguística, Interrupção, Consistência, Prevenção, Memorização, Shortcuts, 
+Clareza, Descompilar, Documentação.
+
+Interfaces: Sonora, Tátil, Web, Gráfica, Linha de Comandos, Eletromecânica, Interação Homem computador a partir de uma interface.
+
+---|||---- THREADS
+-Execução concorrente a partir de um fluxo (thread) Single Thread / Multi Thread
+
+-Execução simultânea apenas aparente. (using System.Threading)
+
+- Sincronização de Threads
+
+Secções críticas - Lock -> lock (this) -> Thread Safe
+				 - Classe Mutex -> igual ao lock mas é uma classe.
+
+Monitor -> só apresenta código de uma thread de cada vez. 
+
+Classe Semaphore -> semáforo é objeto de sincronização
+WaitOne()
+Realease()
+
+Outros objetos sincronização: ThreadPool, ReaderWriterLock, Timer, AutoResetEvent, ManualResetEvent
+
+Já na assíncrona: usa "sync" e "await" (não requer multithread)
+
+
+--|||-- LINQ
+
+Linq -> language integrated Query, linguagem integrada de consulta (parecido com SQL)
+Select, from, where, let, orderby, group, into, join
+
+Operações de agregação: Max(), Min(), Average(), Count()
+
+XElement -> representa um node numa àrvore XML.
+XAttribute -> representa o atributo de um node.
+
+Elements() -> obtem elementos.
+Descendants() -> procura todos os descendentes.
+Value() -> valor texto de um XElement, ou seja, um nó.
+
+Interfaces 
+Composição -> perde-se a capacidade de converter um objeto numa classe base e utilizá-lo.
+Todos os métodos são virtuais.
+
+Dentro do System.Collections temos a Interface IEnumerable, que possui o operador foreach.
+yield return -> próximo valor a criar.
+yield break -> iteração chegou ao fim
+
+Destrutores (finalizers) -> escutado automaticamente pelo garbage collector.
+Close() -> definido em classes que representam uma ligação a recurso
+Dispose() -> definido em classes que representam recursos transitórios
+
+IDisposable -> chama o Dispose()
+
+--||-- Exceções
+Escrita em ficheiro
+Acesso a um site remoto
+Criação de um novo objeto
+
+Tratamento de erros faz-se com try-catch.
+Controlo de execução do programa transferido para o bloco catch correspondente.
+catch ou Exception apanha tudo.
+Segmento finally.
+Definidos do mais específico para o mais geral.
+
+Lançamento -> System.Exception.
+Classes derivadas de System.ApplicationException "throw"
+
+Hierarquia: SystemException -> IOException -> ApplicationException
+
+Aritméticas (tipo OverflowException)
+checked e unchecked.
+
+
+--||--FICHEIROS
+streams -> fluxo de informação com origem e destino
+System.IO -> entrada e saída de dados
+
+MarshalByRefObject -> Classe base de todas as classes da plataforma.
+
+FileSystemInfo -> classe base que representa qualquer objeto (ficheiro ao diretório) no sistema de ficheiros.
+
+FileInfo -> representa ficheiro em concreto
+File -> apenas contém métodos estáticos
+DirectoryInfo -> representa o diretório em concreto
+Directory -> apenas contém métodos estáticos
+Path -> Classe que permite realizar operações sobre cadeias de carateres que representam nomes de ficheiros e diretórios
+
+Hierarquia: Básicas -> FileStream e MemoryStream
+			Compostas -> StreamReader e BinaryReader
+
+Classe FileStream
+
+Ficheiros binários: dados em binário.
+					método Read() para cada tipo de dados -> ReadChar(), ReadString(), ReadInt().
+
+Classe BinaryWriter -> Write().
+
+Serialização: processo de conversão de um objeto numa forma que possa ser guardada persistente. 
+Permite escrever objetos diretamente para uma stream.
+
+Serialize -> escreve
+Deserialize -> lê.
+
+--||-- Estilos arquitectónicos
+Conceito surgiu em 1970
+
+MVC(Model-View-Controller)
+Model-> Manipula dados (não conhece View/Controller)
+View-> Apresenta dados (Conhece Controller e Model)
+Controller -> Recebe eventos da View e passa-os para o Model (Conhece Model e por vezes View)
+
+MVP (Model-View-Presenter)
+Surgiu em 1990 
+Model -> não conhece View
+View -> não conhece Model
+Presenter -> conhece Model e View
+
+MVVM(Model.View-ViewModel)
+Surgiu em 2005
+Model -> o estado da aplicação (Não conhece View/ViewModel)
+View -> Interage com o utilizador (conhece View/Model)
+ViewModel -> comunicação entre a View e a Model (Conhece Model)
+
+MMVM Simplificado
+Model -> manipula e valida dados (não conhece View)
+View -> Interage com o utilizador (conhece Model)
+
+Delegate -> criar referência para método de um objeto.
+delegate void RepresentaFuncao(int valor1, int valor2);
+
+pode utilizar public, private, protected.
+
+Multicast Delegates -> retornam obrigatoriamente void.
+
+Eventos -> Criar um objeto da classe System.EventArgs
+Publicar utilizando event.
+Lançar o evento chamado a variável
+
+
+--||-- COLEÇÕES
+System.Collections
+System.Collections.Generic
+
+List e ArrayList
+List<string> lista = new List<string>();
+lista.Add(“Rui”);
+lista.Add(“Miguel”);
+lista[1] = “Joana”;
+lista.Remove(“Rui”);
+int nElementos = lista.Count;
+int capacidade = lista.Capacity;
+
+LinkedList
+
+LinkedList<string> lista = new LinkedList<string>();
+lista.AddFirst(“Miguel”)
+
+
+BitArray
+
+BitArray lista = new BitArray(4);
+lista[2] = true;
+int nElementos = lista.Count;
+bool[] lista1 = new bool[4];
+lista1[0] = true;
+nElementos = lista1.Count<bool>();
+
+
+Dictionary e Hashtable
+
+Dictionary<int, string> listaAlunos = new Dictionary<int, string>();
+listaAlunos[12500] = "Joana Santos";
+
+HashSet<int> numeros = new HashSet<int>();
+numeros.Add(12500); // Valor adicionado: Add retorna true
+
+
+Sorted List
+SortedList<string, int> lista = new SortedList<string, int>();
+lista["Joana Santos"] = 11468234;
+
+
+Queue
+Queue<string> fila = new Queue<string>();
+fila.Enqueue("Joana Santos");
+
+
+Stack
+
+
+--||-- HERANÇA
+Herança de Classes -> Vantagens: Reutilização de código
+								 Expansibilidade do sistema.
+
+Coversão entre tipos -> 3 operadores:
+is -> se um objeto é de um outro tipo
+as -> converte uma referência para um objeto
+typeof -> identifica o tipo de um certo objeto
+
+GDI+ -> é uma biblioteca (gdiplus.dll) -> fornece API
+através do namespace System.Drawing -> possui Gráficos vetoriais 2D, funções genéricas e funções avançadas, imagem, tipografia
+Classe Graphics -> fornece métodos e propriedades para desenhar variados objetos gráficos.
+elemento Canvas -> permite desenhar e posicionar variados objetos gráficos
+
+
+--||-- CLR
+
+CLR -> common Language Runtime 
+Fornece -> Gestão de memória
+		   Gestão de Erros
+		   Serviços de debugging
+
+Boxing -> Encapsulamento de um tipo elementar num objeto.
+int a = 10;
+object b = a;
+string c = b.ToString();
+
+Unboxing -> Desencapsulamento do tipo elementar do objeto.
+int a = 10;
+object b = a;
+int c = (int) b;
+
+Classes:
+internal - como membros public mas só dentro do módulo corrente 
+public - visíveis dentro e fora da classe.
+protected - dentro da classe e classes derivadas
+private - só visíveis dentro da própria classe 
+protectec internal - membros protected mas só visível dentro do módulo corrente
+
+Constantes -> "const" -> valor fixo
+Variáveis estáticas -> partilhado por toda a classe.
+Métodos estáticos -> pode aceder apenas às variáveis estáticas
+Construtores -> inicializa campos de um objeto
+this -> representa o objeto ao qual pertence o código. (util para comparações)
+Inicialização de variáveis -> é possível inicializar sem utilizar o construtor.
+
+Existência numa classe de vários métodos com o mesmo nome é overloading.
+
+
+--||-- INICIO
+XAML -> baseado em XML
+WP -> Classe Page inicializa.
+WPF -> Classe Window inicializa.
+
+Definição de atributos -> XAML ou propriedades, run-time.
+
+XAMARIN VANTAGENS
+Bom desempenho
+Suporto componentes Hardware (câmara)
+
+XAMARIN DESVANTAGENS
+Custo ~=1000/ano
+Curva de Aprendizagem
+Não é possível usar bibliotecas open source.
+
+Emuladores -> testar comportamentos aplicações 
+
+.NETMAUI -> .NET substituída pela MAUI.
+
+UWP -> Universal Windows Platform -> aplicações para uma família de dispositivos
+
+Produtividade - Team Foundation Server
+			  - Azure
+
+Instaladores - define destino do pacote de instalação 
+			 - como é instalada 
+			 - como ira procurar atualizações

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Aula_11_LerXAML")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a32fd1d4c031a2c1e38c2f7e6e900042a70ddeb7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0730762be4a17a496cc222e92e25d8f7e1ea08d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Aula_11_LerXAML")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Aula_11_LerXAML")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

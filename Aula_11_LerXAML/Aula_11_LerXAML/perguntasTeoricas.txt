@@ -1,0 +1,205 @@
+﻿Indique qual a forma da classe A alterar o valor da propriedade P da classe B caso o set seja privado - Através do construtor da classe B
+
+A estrutura de dados Stack é ineficiente na - Pesquisa de Elementos
+
+A expressão XElement x = new XElement(“y”, new XElement(“z”, new XAttribute(“k”,”l”)), new XElement(“m”)) gera a estrutura - <y><z k=”l”></z><m></m></y>
+
+Para utilizar a LINQ numa fonte de dados esta deve ser - Externa
+
+Se a interface A herda da interface B e a classe C implementa a interface B quem implementa a interface A é a - Classe C ou Nenhuma opção 
+
+Se o método X invocar o método Y indique como este pode lançar uma exceção do tipo Z -  throw new z ou Nenhuma opção
+
+Para que um método possa ser executado de forma assíncrona é necessário que - Seja definido como async
+
+Uma interface permite a uma classe implementar - Composição 
+
+Se o método A invocar o método B e este invocar o método C se ocorrer uma exceção do tipo D no método C em qual dos métodos deve ser efetuado o tratamento de exceção - B
+
+A estrutura de dados BitArray é ineficiente na - Alocação de grandes quantidades de elementos
+
+A forma de uma classe implementar um iterador é utilizando a interface - IEnumerator
+
+Se o método X invocar o método Y e este tratar uma exceção do tipo Z indique como posso relançar a mesma exceção -  throw
+
+A estrutura de dados SortedDictionary é eficiente na - Pesquisa sequencial de elementos
+
+A estrutura XML “<a><b c=”d”><e></e></b></a> significa que - O nó a contém o nó b com atributo c e o nó b contém o nó e
+
+Indica quais os módulos do MVC que permite total portabilidade - Models
+
+A escrita de dados em formato binário deve ser efetuada utilizando streams - Compostas
+
+Indique qual a função do get nas propriedades de uma classe - Alterar o estado interno de uma classe
+
+A estrutura de dados Hashtable é eficiente na - pesquisa sequencial de elementos
+
+Indique um requisito necessário para que um evento possa ser lançado - Existir pelo menos um método subscrito no evento ou nenhuma das opções
+
+A leitura de dados em formato binário deve ser efetuada utilizando streams - Compostas
+
+Se pretender que um bloco de código seja executado apenas por uma thread de cada vez posso utilizar - Todas as opções
+
+Um evento permite - Lançar vários métodos em paralelo
+
+Suponha que A é o objeto que representa o elemento XML <B C=”D”></B> Indique a expressão LINQ que permite obter D - A.Attribute(C).Value
+
+Indique qual o método que poderá subscrever se no evento public event A B tendo como delegado public delegate void A(string c, int d) - void C()
+
+Se pretender que as instâncias da classe A possam iterar as instâncias da classe B deve implementar-se o método GetEnumerator - Classe A
+
+Indique a expressão LINQ que permite guardar no ficheiro A xml o objeto B que representa o documento - B.Save(A)
+
+Se pretender solicitar ao utilizador um ficheiro através de dialogs de acesso a ficheiros, e este recusar é devolvido como resultado DialogResult - No
+
+Indique os componentes gráficos sobre os quais uma instância da classe Graphics pode desenhar - Todos
+
+Supondo que a interface A define um evento B associado ao delegado C indique qual a declaração correta do evento B - nenhuma das opções
+
+Se a classe formulário A contiver a instância B da classe formulário C indique a forma correta de A exibir C - C.Show()
+
+Indique a forma correta de inicializar na classe A uma coleção Dictionary que armazena chaves do tipo B valores do tipo C e é representada pela propriedade D - class A { public A() {D = new Dictionary<B,C>();}}
+
+Se pretender escrever o texto “A.B.C.D.” num ficheiro representada por C em que cada letra se encontra numa posição diferente da list F devo utilizar - foreach (string G in F) { E.Write(G +’.’};}
+
+Indique a forma correta de inicializar na classe C uma coleção list que armazena itens do tipo B e é representada pela propriedade A - class C { public C() {A = new List<B>();}}
+
+Indique a forma correta de declarar uma propriedade A que representa uma coleção Dictionary que armazena valores do tipo B e chaves do tipo C - public Dictionary<C,B> A {get; set;}
+
+A estrutura de dados SortedList é eficiente na - Obtenção de Elementos
+
+Indique o que representa o value nas propriedades de uma classe - O valor que está a ser atribuido
+
+Para que um método possa ser executado de forma concorrente é necessário que - Nenhuma das opções 
+
+A estrutura de dados LinkedList é ineficiente na - Obtenção de elementos
+
+Indique o mecanismo que permite a uma variável do tipo byte ser utilizada como um objeto - Encapsulamento
+
+Se pretender que um bloco de código seja executado por várias threads em simultâneo posso utilizar - Semaphore 
+
+A expressão LINQ var a = from b in c group b by b.d significa que 
+(b = elemento, c = fonte de dados, dados agrupados pelo criterio b.d)
+
+Em C# as exceções podem ser representadas por - Objetos
+
+A estrutura de dados ArrayList é eficiente na - Obtençao de elementos
+
+Indique como se evitam exceções - utilizando um bloco try catch
+
+Em c# as operações sobre ficheiros podem ser efetuadas utilizando - Nenhuma das opçoes 
+
+O que acontece quando ocorre uma exceção - é parada a execução normal da aplicação
+
+Suponha que a interface A define um método B que recebe um tipo C como parâmetro de entrada D indique qual a implementação correta do método na classe E - public void B(C D){};
+
+Se pretender que as instâncias da classe A possam ser iteraveis  pelas instâncias da classe B deve utilizar-se - class A: IEnumerable
+
+Se pretender escrever as letras A B C D em linhas diferentes de um ficheiro representado por E em que cada letra se encontra numa posição diferente da List F devo utilizar -foreach (string G in F) { E.WriteLine(G);}
+
+No estilo arquitetônico MVC indique em qual dos módulos devem ser geradas exceções da aplicação - Model
+
+No estilo arquitetônico MVC ao módulo Model é permitido acesso a - Nenhum
+
+Supondo que o método B gera uma exceção do tipo A indique como trataria essa exceção - try { B() } catch (A c) { }
+
+No estilo arquitetônico MVC se a View representada por D pretender subscrever o método representado por C num evento representado por B do model representado por A devo utilizar a declaração -
+
+Suponha que A representa os resultados obtidos de uma expressão LINQ indique a declaração que permite percorrer cada um desses resultados - foreach( string B in A)
+
+Se pretender ler o texto “A.B.C.D.” de um ficheiro representada por E em que cada letra numa posição diferente do vetor F  devo utilizar - foreach (string G in F) {E.Read(G +”.”);}
+
+Indique o componente gráfico que permite definir um conjunto de nós - TreeView
+
+Para que uma aplicação A possa lançar exceções do tipo B é necessário existir - Nenhuma das opçoes (se existisse seria throw new B() ou class B: ApplicationExpception)
+
+No estilo arquitetônico MVC qual dos módulos deve ser notificado sobre alterações ao estado da aplicação - Model
+
+A estrutura de dados SortedDictionary é ineficiente na - Pesquisa de elementos (é lento)
+
+Se pretender definir numa classe o acesso de outras classes à sua variável A do tipo B posso utilizar a declaração - public B C {  get {returnA;}; set{A=value;}; }
+
+Supondo que a interface A define um evento B associado ao delegado C indique qual a declaração correta do evento na classe D - public event C B
+
+Indique o que são coleções - Interface de programação para gestão de objetos
+
+O operador foreach pode ser utilizado em coleções porque - implementam a interface IEnumerable ou São serializáveis
+
+Supondo que a interface A define uma propriedade B do tipo C indique qual a declaração correta da propriedade - (16)
+
+Indique a vantagem de utilização do LINQ - Dados tratados de forma uniforme
+
+Se a interface A herda da interface B e a classe C implementa a interface A quem implementa a interface B é a - Class C 
+
+Indique a declaração de delegado que permite ao método int A(int b) subscrever-se no evento public event C D - public delegate int C (int b)
+
+A forma de obter referências para métodos é utilizando - Delegados
+
+O lançamento de um evento implica como primeiro passo - Criar o evento
+
+Se pretender copiar dados de uma variável A para um ficheiro de texto representado por B devo primeiro utilizar a declaração -  StreamWriter C=new StreamWriter(B)
+
+Se pretender aceder ao texto de erro associado à exceção representada por A devo utilizar - A.Message
+
+Indiqque o mecanismo que permite recuperar um valor do tipo float representado por um objeto - Desencapsulamento
+
+Indique a expressão LINQ que permite carregar em A um ficheiro XML B - XDocument A = new XDocument().Open(B)
+
+Indique o que são propriedades de uma classe - Mecanismo de acesso aos campos da classe
+
+Que tipo de exceções devem ser tratadas pelo programador - Aplicação
+
+A estrutura de dados Hashset é eficiente na - Operação sobre conjuntos de elementos
+
+A estrutura de dados BitArray é eficiente na - Alocação de grandes quantidades de elementos
+
+Indique o número mínimo de threads necessário para serem executadas as instruções de uma aplicação com execução  - 1
+
+Sempre que se pretender recuperar o estado de uma instância de uma classe deve-se - Desserializar 
+
+No estilo arquitetônico MVC ao módulo View é permitido acesso a - Model e Controller 
+
+Se pretender solicitar ao utilizador um ficheiro para obtenção de dados devo utilizar - OpenFileDialog
+
+Suponha que A é o objeto que representa o documento XML <B><C></C><C></C></B>  indique a expressão LINQ que permite obter os elementos C - var D =from in A.Element(“C”) select E
+
+Se pretender armazenar o texto de erro C associado à exceção do tipo B na classe ascendente A devo utilizar - public B(string C) : base(C)
+
+A estrutura de dados Dictionary é eficiente na - Alteração de elementos
+
+No estilo arquitetônico MVC uma das funções do delegadosModel é - Manipular dados e guardar o estado interno da aplicação\
+
+Sempre que se pretender armazenar o estado de uma instância de uma classe deve-se - Serializar
+
+A expressão LINQ double a = (from b in c select b.d).Average() permite - Calcular a média do cambo d dos elementos b da fonte de dados c
+Indique qual a declaração que permitiria tratar uma exceção ao nível da aplicação do tipo A - catch( A e)
+
+Indique qual a declaração do delegado que permite ao método void Z(int x, string y) subscrever-se no evento public event X Y - public delegat void Y(int x, string y)
+
+Indique a forma correta de declarar uma propriedade B que representa uma coleção List que armazena itens do tipo A - public List<A> B {get;set;}
+
+No estilo arquitetônico MVC uma das funções do Controller é -  Gerir o fluxo de informação entre a componente visual e a lógica
+
+Indique a expressão LINQ que permite criar em memória o documento XML A com a estrutura <B><D></D><!--C–-></B> - XDocument A = new XDocument(new XElement(“B”,new XElement(“D”), new XComent(“C”)));
+
+Indique o componente gráfico que permite ao utilizador aceder a um conjunto de itens com um clique - ListView
+
+A expressão LINQ var a = from b in c significa que - cada elemento da fonte de dados c está a ser acedido pela variável a
+
+Só é possível associar a um evento delegados que representem métodos que tenham como retorno - null
+
+A expressão LINQ var a = from b in c where b.c == e significa que - Nenhuma das opçoes
+
+Para representar o modelo de um método pode utilizar-se - Interfaces
+
+A estrutura de dados Queue é eficiente na - Implementação de recursividade de métodos
+
+Se a classe formulário "A" contiver a instância de B, que está dentro da classe C, como exibir "A" em "C" -> B.ShowDialog()
+
+No estilo arquitetónico MVVM Simplificado uma das funções da camada de interligação -> interligar camada lógica com utilizador
+
+MVVM simplificado , o Model tem acesso -> Camada de interligação
+
+
+
+
